@@ -13,6 +13,7 @@
 		47B1B86D1E68646500973179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B1B86B1E68646500973179 /* Main.storyboard */; };
 		47B1B86F1E68646500973179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B1B86E1E68646500973179 /* Assets.xcassets */; };
 		47B1B8721E68646500973179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B1B8701E68646500973179 /* LaunchScreen.storyboard */; };
+		47B1B87B1E68648C00973179 /* EGSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B1B87A1E68648C00973179 /* EGSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47B1B86E1E68646500973179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B1B8711E68646500973179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B1B8731E68646500973179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B1B8791E68648C00973179 /* EGSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSlider.h; sourceTree = "<group>"; };
+		47B1B87A1E68648C00973179 /* EGSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				47B1B8701E68646500973179 /* LaunchScreen.storyboard */,
 				47B1B8731E68646500973179 /* Info.plist */,
 				47B1B8621E68646500973179 /* Supporting Files */,
+				47B1B8791E68648C00973179 /* EGSlider.h */,
+				47B1B87A1E68648C00973179 /* EGSlider.m */,
 			);
 			path = EGSliderTest;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B1B87B1E68648C00973179 /* EGSlider.m in Sources */,
 				47B1B86A1E68646500973179 /* ViewController.m in Sources */,
 				47B1B8671E68646500973179 /* AppDelegate.m in Sources */,
 				47B1B8641E68646500973179 /* main.m in Sources */,
